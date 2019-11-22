@@ -82,19 +82,33 @@ background-image:url("http://www.bilobostad.se/wp-content/uploads/2018/09/142987
 	margin-left: auto;
 	margin-right: auto;
 	margin-top: 50px;
-	border-collapse: collapse;
-	width: 30%;
+	width:250px;
+	border:1px solid black;
+	border-collapse:collapse;
 }
-.mattabell td {
-	border: 1px solid black;
+.mattabell td:nth-child(odd) {
 	width: 30%;
 	height: 40px;
-	text-align: center;
+	text-align:left;
+	padding-left:10px;
+}
+.mattabell td:nth-child(even) {
+	width: 30%;
+	height: 40px;
+	text-align:right;
+	padding-right:10px;
 }
 .mattabell caption {
 	margin-bottom: 20px;
 	font-size: 30px;
 }
+.mattabell tr:nth-child(even) {
+	background-color: #c4c4c4;
+}
 .mattabell tr:nth-child(odd) {
-	background-color: #e6e6e6;
+	background-color:white; 
+}
+.BodyM {
+	font-family:arial;
+	margin:0;
 }
