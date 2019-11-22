@@ -96,9 +96,9 @@ background-image:url("http://www.bilobostad.se/wp-content/uploads/2018/09/142987
 	padding-right:10px;
 }
 .mattabell caption {
-	color:white;
+	color:black;
 	margin-bottom: 20px;
-	font-size: 30px;
+	font-size: 35px;
 }
 .mattabell tr:nth-child(even) {
 	background-color: #c4c4c4;
