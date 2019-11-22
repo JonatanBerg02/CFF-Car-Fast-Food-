@@ -87,13 +87,11 @@ background-image:url("http://www.bilobostad.se/wp-content/uploads/2018/09/142987
 	border-collapse:collapse;
 }
 .mattabell td:nth-child(odd) {
-	width: 30%;
 	height: 40px;
 	text-align:left;
 	padding-left:10px;
 }
 .mattabell td:nth-child(even) {
-	width: 30%;
 	height: 40px;
 	text-align:right;
 	padding-right:10px;
