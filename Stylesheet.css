@@ -72,11 +72,24 @@ li {
 background-image:url("http://www.bilobostad.se/wp-content/uploads/2018/09/1429872129_Foto_Alfa_Romeo-TZ3_Stradale_2011_1280x960_wallpaper_03.jpg")
 }
 
-.BorderHM{
+.BorderHMMain{
     border: 3px solid black;
     border-radius: 25px;
-    padding: 10px 10px;
+    padding: 20px 20px;
     background-color:rgba(255,255,255,0.6);
+    Margin-right: 10%;
+    Margin-left: 10%;
+    Height: 50%;
+}
+
+.BorderHMBeta{
+    border: 3px solid black;
+    border-radius: 25px;
+    padding: 20px 20px;
+    background-color:rgba(255,255,255,0.6);
+    Margin-right: 60%;
+    Margin-left: 10%;
+    Height: 30%;
 }
 
 .mattabell {
