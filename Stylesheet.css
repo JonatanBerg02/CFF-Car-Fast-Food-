@@ -55,6 +55,13 @@ th
     Color: Black;
 }
 
+.equality
+{
+    letter-spacing: 2px;
+    line-height: 1;
+    font-family: "Times New Roman", Times, serif;
+   }
+
 .oppentider
 {
    background-image:url("http://www.bilobostad.se/wp-content/uploads/2018/09/1429872129_Foto_Alfa_Romeo-TZ3_Stradale_2011_1280x960_wallpaper_03.jpg")
