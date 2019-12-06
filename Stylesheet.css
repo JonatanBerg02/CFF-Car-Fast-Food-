@@ -123,7 +123,7 @@ background-image:url("http://www.bilobostad.se/wp-content/uploads/2018/09/142987
 	font-size: 35px;
 }
 .mattabell tr:nth-child(even) {
-	background-color: rgba(255,125,125,0.8);
+	background-color: rgba(200,200,200,0.8);
 }
 .mattabell tr:nth-child(odd) {
 	background-color: rgba(255,255,255,0.8); 
