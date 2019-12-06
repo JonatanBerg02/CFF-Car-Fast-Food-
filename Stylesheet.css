@@ -53,6 +53,14 @@ th
     Color: Black;
 }
 
+.equality
+{
+    letter-spacing: 2px;
+    line-height: 1;
+    font-family: "Times New Roman", Times, serif;
+   }
+
+
 .oppentider
 {
    background-image:url("http://www.bilobostad.se/wp-content/uploads/2018/09/1429872129_Foto_Alfa_Romeo-TZ3_Stradale_2011_1280x960_wallpaper_03.jpg")
@@ -75,7 +83,7 @@ background-image:url("http://www.bilobostad.se/wp-content/uploads/2018/09/142987
     border-radius: 25px;
     padding: 20px 20px;
     background-color:rgba(255,255,255,0.6);
-    Margin-right: 10%;
+    Margin-right: 50%;
     Margin-left: 10%;
     Height: 50%;
 }
@@ -113,10 +121,10 @@ background-image:url("http://www.bilobostad.se/wp-content/uploads/2018/09/142987
 	font-size: 35px;
 }
 .mattabell tr:nth-child(even) {
-	background-color:rgba(255,125,125,0.6);
+	background-color: #c4c4c4;
 }
 .mattabell tr:nth-child(odd) {
-	background-color:rgba(255,255,255,0.6); 
+	background-color:white; 
 }
 .BodyM {
 	font-family:arial;
