@@ -5,6 +5,7 @@
     width:40%;
     background-color:rgba(255,255,255,0.6);
     border-radius: 50px;
+    margin-left: 10%;
 }
 
 .nav {
@@ -136,22 +137,24 @@ background-image:url("http://www.bilobostad.se/wp-content/uploads/2018/09/142987
     margin-left: auto; 
 }
 
+
 .TextSection{
     
-    left:16;
+    left:40px;
       position: absolute;   
     
 }
 .imgSection
 {
-      position: absolute;
-  right: 16px;   
     
 }
 
 
 .TabellSection
 {
-    left: 16px
-        position: absolute;
+  
+}
+.grid{
+    display:grid;
+    grid-template-columns: 2fr 1fr;
 }
