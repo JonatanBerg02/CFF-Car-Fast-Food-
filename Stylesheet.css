@@ -15,7 +15,7 @@
 
 .nav a {
   float: left;
-  color: #4aaced;
+  color: #b30000;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
@@ -23,12 +23,12 @@
 }
 
 .nav a:hover {
-  background-color: #ddd;
+  background-color: #e6b800;
   color: black;
 }
 
 .nav a.active {
-  background-color: #4aaced;
+  background-color: #b30000;
   color: Black;
 }
 
