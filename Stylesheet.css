@@ -1,3 +1,13 @@
+body{
+    background-image:url("https://miro.medium.com/max/2280/1*qmcAi5q4h6DPH7JegpzMXw.gif")
+}
+
+
+th
+{
+    height: 50px;
+}
+/* Navigation */
 .nav {
   background-color: #333;
   overflow: hidden;
@@ -21,26 +31,18 @@
   background-color: #b30000;
   color: Black;
 }
-
+/* Klasser som berör alla html sidor */
 .grid{
     display:grid;
     grid-template-columns: 2fr 1fr;
 }
 
-body{
-    background-image:url("https://miro.medium.com/max/2280/1*qmcAi5q4h6DPH7JegpzMXw.gif")
-}
 
 .TextSection{
     
     left:40px;
       position: absolute;   
     
-}
-.img
-{
-    display:block;
-    margin-left: auto; 
 }
 
 .equality
@@ -50,49 +52,13 @@ body{
     font-family: "Times New Roman", Times, serif;
    }
 
-
-
-
-
-.table2
+.img
 {
-    border: 1px solid black;
-    text-align: Center;
-    width:40%;
-    background-color:rgba(255,255,255,0.6);
-    border-radius: 50px;
-    margin-left: 10%;
+    display:block;
+    margin-left: auto; 
 }
 
-.th
-{
-    height:20px;
-}
-
-
-th
-{
-    height: 50px;
-}
-
-
-.Titel
-{
-    text-align: Center;
-    font-size: 50px;
-    Color: Black;
-}
-
-
-li {
-    
-    display:inline;
-    padding-left: 6px;
-    padding-right: 6px;
-    border: 1px solid black;
-}
-
-
+/* Css för Huvudmenyn*/
 .BorderHMMain{
     border: 3px solid black;
     border-radius: 25px;
@@ -113,6 +79,7 @@ li {
     Height: 30%;
 }
 
+/* Css för Menyn */
 .mattabell {
 	margin-left: auto;
 	margin-right: auto;
@@ -121,16 +88,19 @@ li {
 	width:350px;
 	border-collapse:collapse;
 }
+
 .mattabell td:nth-child(odd) {
 	height: 40px;
 	text-align:left;
 	padding-left:10px;
 }
+
 .mattabell td:nth-child(even) {
 	height: 40px;
 	text-align:right;
 	padding-right:10px;
 }
+
 .mattabell caption {
 	color:black;
 	margin-bottom: 20px;
@@ -139,7 +109,31 @@ li {
 .mattabell tr:nth-child(even) {
 	background-color: rgba(200,200,200,0.8);
 }
+
 .mattabell tr:nth-child(odd) {
 	background-color: rgba(255,255,255,0.8); 
 }
+
+/* Css för öppentider */
+.table2
+{
+    border: 1px solid black;
+    text-align: Center;
+    width:40%;
+    background-color:rgba(255,255,255,0.6);
+    border-radius: 50px;
+    margin-left: 10%;
+}
+
+.Titel
+{
+    text-align: Center;
+    font-size: 50px;
+    Color: Black;
+}
+
+
+
+
+
 
