@@ -108,6 +108,8 @@ th
 .mattabell {
 	/* Mellanrum ovanför tabellen */
 	margin-top: 50px;
+	/* Mellanrum till vänster */
+	margin-left: 100px;
 	/* Ramen */
 	border: 2px solid black;
 	/* Bredden */
