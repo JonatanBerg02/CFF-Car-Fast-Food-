@@ -1,8 +1,9 @@
+/* Bakgrunds bild */
 body{
     background-image:url("https://miro.medium.com/max/2280/1*qmcAi5q4h6DPH7JegpzMXw.gif")
 }
 
-
+/* Cellernas höjd inom tabellerna */
 th
 {
     height: 50px;
@@ -13,17 +14,25 @@ th
   overflow: hidden;
 }
 
+/* Cssen för navigationen */
 .nav a {
-  float: left;
+    /* färgen */
   color: #b30000;
+    /* den blev smal om den här inte var med */
+    float: left;
+    /* centrerar texten */
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
+    /* text storlek */
   font-size: 17px;
 }
 
+/* cssen för när man har musen på navigationen */
 .nav a:hover {
+    /* ändrar färg på bakgrunden */
   background-color: #e6b800;
+    /* ändrar färg på texten */
   color: black;
 }
 
@@ -33,7 +42,9 @@ th
 }
 /* Klasser som berör alla html sidor */
 .grid{
+    /* Delar upp html sidan */
     display:grid;
+    /* Delas upp i 2 delar där den ena sidan är 67% och den andra 33% */
     grid-template-columns: 2fr 1fr;
 }
 
@@ -52,9 +63,11 @@ th
     font-family: "Times New Roman", Times, serif;
    }
 
+/* logon placering */
 .img
 {
     display:block;
+    /* Den är till vänster */
     margin-left: auto; 
 }
 
@@ -115,20 +128,30 @@ th
 }
 
 /* Css för öppentider */
+/* Cssen för tabellen på öppentider */
 .table2
 {
+    /* skapar en 1px ram */
     border: 1px solid black;
+    /* Centrerar texten */
     text-align: Center;
+    /* ändrar tabellens bredd */
     width:40%;
+    /* färgen på tabellen */
     background-color:rgba(255,255,255,0.6);
+    /* ändrar raidien på ramen */
     border-radius: 50px;
+    /* ändrar tabellens position */
     margin-left: 10%;
 }
-
+/* Cssen för Titeln på Öppentider*/
 .Titel
 {
+    /* Centrerar texten */
     text-align: Center;
+    /* Storlek på texten */
     font-size: 50px;
+    /* text färg */
     Color: Black;
 }
 
