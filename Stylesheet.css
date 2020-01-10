@@ -1,6 +1,10 @@
 /* Bakgrunds bild */
 body{
-    background-image:url("https://miro.medium.com/max/2280/1*qmcAi5q4h6DPH7JegpzMXw.gif")
+    background-image:url("https://c4.wallpaperflare.com/wallpaper/546/1014/536/50-039-s-car-classic-restaurant-wallpaper-preview.jpg");
+    /* Gör så den inte repeterar sig */
+        background-repeat: no-repeat;
+    /* Gör så att det expanderar sig över hela sidan */
+    background-size: 100vw 100vh;
 }
 
 /* Cellernas höjd inom tabellerna */
