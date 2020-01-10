@@ -99,37 +99,53 @@ th
 }
 
 /* Css för Menyn */
+
+/* Css för tabellen */
 .mattabell {
-	margin-left: auto;
-	margin-right: auto;
+	/* Mellanrum ovanför tabellen */
 	margin-top: 50px;
+	/* Ramen */
 	border: 2px solid black;
+	/* Bredden */
 	width:350px;
+	/* Sätter ihop ramarna */
 	border-collapse:collapse;
 }
-
+/* Css för första kolumnen */
 .mattabell td:nth-child(odd) {
+	/* Höjd */
 	height: 40px;
+	/* Vänsterjusterad text */
 	text-align:left;
+	/* Mellanrum mellan texten och kanten */
 	padding-left:10px;
 }
-
+/* Css för andra kolumnen */
 .mattabell td:nth-child(even) {
+	/* Höjd */
 	height: 40px;
+	/* Högerjusterad text */
 	text-align:right;
+	/* Mellanrum mellan texten och kanten */
 	padding-right:10px;
 }
-
+/* Css för rubriken */
 .mattabell caption {
+	/* Svart färg */
 	color:black;
+	/* Mellanrum mellan rubriken och tabellen */
 	margin-bottom: 20px;
+	/* Textstorlek */
 	font-size: 35px;
 }
+/* Css för jämna rader */
 .mattabell tr:nth-child(even) {
+	/* Grå bakgrund */
 	background-color: rgba(200,200,200,0.8);
 }
-
+/* Css för udda rader */
 .mattabell tr:nth-child(odd) {
+	/* Vit bakgrund */
 	background-color: rgba(255,255,255,0.8); 
 }
 
